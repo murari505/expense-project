@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Apply Leave</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Apply Leave</h1>
+
+        <nav>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="leave-history.html">Leave History</a>
+        </nav>
+
+    </header>
+
+    <main class="form-container">
+
+        <div class="form-card">
+
+            <h2>Leave Application</h2>
+
+            <form id="leaveForm">
+
+                <label for="leaveType">
+                    Leave Type
+                </label>
+
+                <select id="leaveType" required>
+
+                    <option value="">
+                        Select Leave Type
+                    </option>
+
+                </select>
+
+                <label for="startDate">
+                    Start Date
+                </label>
+
+                <input
+                    type="date"
+                    id="startDate"
+                    required
+                >
+
+                <label for="endDate">
+                    End Date
+                </label>
+
+                <input
+                    type="date"
+                    id="endDate"
+                    required
+                >
+
+                <label for="reason">
+                    Reason
+                </label>
+
+                <textarea
+                    id="reason"
+                    placeholder="Enter reason for leave"
+                    rows="5"
+                    required
+                ></textarea>
+
+                <button type="submit" class="btn">
+                    Apply Leave
+                </button>
+
+            </form>
+
+            <p id="message"></p>
+
+        </div>
+
+    </main>
+
+    <script src="js/apply-leave.js"></script>
+
+</body>
+
+</html>
