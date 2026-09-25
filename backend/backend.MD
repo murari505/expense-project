@@ -49,7 +49,7 @@ In linux pull backend repository:
 
 git clone 
 
-cd ~/expense-project/backend/backend
+cd ~/expense-project/backend/
 
  ls -la
 

@@ -8,6 +8,8 @@ Versions of the DB Software you will get context from the developer, Meaning we 
 
 Install MySQL Server 8.0.x:
 
+sudo su -
+
 dnf install mysql-server -y
 
 Start MySQL Service:
@@ -68,3 +70,9 @@ mysql -u leave_user -p employee_leave
 you will enter SQL:
 
 mysql>
+
+exit
+
+Verify MySQL is listening on port 3306:
+
+sudo ss -lntp | grep 3306
