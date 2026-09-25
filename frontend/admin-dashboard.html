@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Admin Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <h1>Admin Dashboard</h1>
+
+    <nav>
+        <a href="admin-dashboard.html">Dashboard</a>
+
+        <button onclick="logout()">
+            Logout
+        </button>
+    </nav>
+
+</header>
+
+<main class="container">
+
+    <h2>Leave Applications</h2>
+
+    <div class="table-container">
+
+        <table>
+
+            <thead>
+
+                <tr>
+                    <th>ID</th>
+                    <th>Employee</th>
+                    <th>Leave Type</th>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                    <th>Reason</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+
+            </thead>
+
+            <tbody id="leaveTableBody">
+
+                <tr>
+                    <td colspan="8">
+                        Loading...
+                    </td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <p id="message"></p>
+
+</main>
+
+<script src="admin-dashboard.js"></script>
+
+</body>
+
+</html>
