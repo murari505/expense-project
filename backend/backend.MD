@@ -128,4 +128,14 @@ Express
 MySQL
 
 
-
+ employee-leave-management
+    │
+    └── backend
+        ├── server.js
+        ├── .env
+        ├── package.json
+        ├── config/
+        ├── models/
+        ├── controllers/
+        ├── routes/
+        └── middleware/

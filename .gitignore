@@ -1,0 +1,3 @@
+node_modules/   → Don't push installed Node.js packages
+.env            → Don't push passwords/secrets
+*.log           → Don't push log files
